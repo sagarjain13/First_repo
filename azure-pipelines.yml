@@ -33,7 +33,7 @@ steps:
 # - checkout: MyBitbucketRepo
 # - checkout: MyAzureReposGitRepository
 
-- script: dir $(Build.SourcesDirectory)/ ; ls ;
+- script: dir $(Build.SourcesDirectory) ; ls ;
 
 
 
